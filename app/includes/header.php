@@ -19,7 +19,9 @@
         <header class="header">
             <div class="container">
                 <h1 class="logo">
-                    <img src="assets/logo_dp_min.svg" alt="Decors &amp; Partners Logo" />
+                    <a href="index.php">
+                        <img src="assets/logo_dp_min.svg" alt="Decors &amp; Partners Logo" />
+                    </a>
                 </h1>
                 <div class="mobile-nav-toggle" id="mobile-nav-toggle">
                     <span class="mobile-nav-toggle__bar"></span>
