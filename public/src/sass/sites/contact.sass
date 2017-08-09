@@ -1,0 +1,18 @@
+.contact-forms
+    display: flex
+    flex-direction: column
+
+    .contact-informations
+        margin-bottom: 30px
+
+@media (min-width: $break-xs)
+    .contact-forms
+        flex-direction: row
+        justify-content: center
+
+        .contact-informations, .contact-form
+            width: 50%
+            margin: 0 20px
+
+        .contact-informations
+            display: block

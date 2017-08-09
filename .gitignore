@@ -1,0 +1,5 @@
+# Files and folders to be ignored by git
+vendor
+node_modules
+gallery
+.DS_store

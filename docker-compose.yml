@@ -1,0 +1,20 @@
+---
+  version: "2"
+
+  services:
+    decorspartnersweb:
+      container_name: decorspartners-web
+      build: "."
+      image: decorspartners-web:latest
+      volumes:
+        - .:/var/www/html
+      ports:
+        - "80:80"
+    decorspartnerscache:
+      container_name: decorspartners-cache
+      image: memcached:latest
+  volumes:
+    database:
+      driver: local
+    localfiles:
+      driver: local
