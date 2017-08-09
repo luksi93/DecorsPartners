@@ -22,7 +22,7 @@
     <div class="offers">
         <div class="column">
             <div class="offer-category">
-                <h3 class="offer-category__title">Sols souples:</h3>
+                <h3 class="offer-category__title">Sols souples</h3>
                 <ul class="offer-category__list">
                     <li>Moquettes</li>
                     <li>Sols caoutchoucs</li>
@@ -33,14 +33,14 @@
             </div>
 
             <div class="offer-category">
-                <h3 class="offer-category__title">Sols coul&eacute;s:</h3>
+                <h3 class="offer-category__title">Sols coul&eacute;s</h3>
                 <ul class="offer-category__list">
                     <li>Epoxy</li>
                 </ul>
             </div>
 
             <div class="offer-category">
-                <h3 class="offer-category__title">Sols durs:</h3>
+                <h3 class="offer-category__title">Sols durs</h3>
                 <ul class="offer-category__list">
                     <li>Carrelage pour int&eacute;rieur</li>
                     <li>Rev&ecirc;tement pour sols ext&eacute;rieurs</li>
@@ -51,7 +51,7 @@
         </div>
         <div class="column">
             <div class="offer-category">
-                <h3 class="offer-category__title">Parquets:</h3>
+                <h3 class="offer-category__title">Parquets</h3>
                 <ul class="offer-category__list">
                     <li>Lames massives pour parquet</li>
                     <li>Parquet contrecoll&eacute; &agrave; parement bois massif</li>
@@ -61,7 +61,7 @@
             </div>
 
             <div class="offer-category">
-                <h3 class="offer-category__title">Rev&ecirc;tements muraux:</h3>
+                <h3 class="offer-category__title">Rev&ecirc;tements muraux</h3>
                 <ul class="offer-category__list">
                     <li>Rev&ecirc;tements souples
                     <ul>
@@ -80,5 +80,11 @@
                 </ul>
             </div>
         </div>
+    </div>
+    <!-- TODO: call to action -->
+
+    <h3 class="align-center">Vous voulez renovez votre espace de vie?</h3>
+    <div class="center-child">
+        <a href="contact.php" class="btn">Contactez-nous!</a>
     </div>
 </section>

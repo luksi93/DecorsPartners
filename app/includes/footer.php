@@ -6,7 +6,7 @@
             <nav class="footer-nav">
                 <ul class="footer-nav__list">
                     <li class="footer-nav__item"><a href="index.php">Acceuil</a></li>
-                    <li class="footer-nav__item"><a href="gallery.php">Gallery</a></li>
+                    <li class="footer-nav__item"><a href="gallery.php">Nos réalisations</a></li>
                     <li class="footer-nav__item"><a href="contact.php">Contact</a></li>
                 </ul>
             </nav>

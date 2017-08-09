@@ -29,7 +29,7 @@
                 <nav class="navigation" id="navigation">
                     <ul class="navigation__list">
                         <li class="navigation__item <?php if($currentPage === "about") echo "active"?>"><a href="index.php">Acceuil</a></li>
-                        <li class="navigation__item <?php if($currentPage === "gallery") echo "active"?>"><a href="gallery.php">Gallery</a></li>
+                        <li class="navigation__item <?php if($currentPage === "gallery") echo "active"?>"><a href="gallery.php">Nos réalisations</a></li>
                         <li class="navigation__item <?php if($currentPage === "contact") echo "active"?>"><a href="contact.php">Contact</a></li>
                     </ul>
                 </nav>
