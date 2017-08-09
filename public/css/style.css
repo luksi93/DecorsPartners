@@ -364,6 +364,9 @@ textarea {
   font: inherit;
   /* 2 */ }
 
+html {
+  min-height: 100%; }
+
 *, h1, h2, h3, h4, h5, h6 {
   box-sizing: border-box;
   margin: 0;
@@ -631,7 +634,10 @@ textarea.form-control {
   -ms-flex-direction: column;
       flex-direction: column;
   -ms-flex-align: center;
-      align-items: center; }
+      align-items: center;
+  position: absolute;
+  bottom: 0;
+  margin-top: 150px; }
   .footer__logo {
     width: 60%;
     max-height: 40px;
@@ -712,7 +718,9 @@ h3 {
 
 .gallery__image {
   margin: 10px 10px;
-  transition: all 0.3s ease-in-out; }
+  transition: all 0.3s ease-in-out;
+  max-width: 320px;
+  max-height: 240px; }
   .gallery__image:hover {
     box-shadow: 5px 5px 8px 0px rgba(0, 0, 0, 0.75);
     transform: scale(1.01); }
