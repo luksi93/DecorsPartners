@@ -81,8 +81,7 @@
             </div>
         </div>
     </div>
-    <!-- TODO: call to action -->
-
+    <!-- TODO: change h3 text -->
     <h3 class="align-center">Vous voulez renovez votre espace de vie?</h3>
     <div class="center-child">
         <a href="contact.php" class="btn">Contactez-nous!</a>
